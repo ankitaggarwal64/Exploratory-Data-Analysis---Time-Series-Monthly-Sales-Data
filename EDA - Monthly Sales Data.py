@@ -4,11 +4,6 @@ Spyder Editor
 
 This is a temporary script file.
 """
-## ARIMA Modelling
-
-# De
-fining a Validation Dataset.
-
 import pandas as pd
 totalseries = pd.read_csv('D:\Data Science Projects\Time series forecasting\Arima Implementation\ABC4wd.csv', header=0, index_col=0, parse_dates=True, squeeze=True)
 #header=0: We must specify the header information at row 0.
